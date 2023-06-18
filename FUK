@@ -1,0 +1,8 @@
+frequently used commands
+
+sudo apt-get install postgresql
+sudo -u postgres createuser testrole
+sudo -u postgres createdb testdb
+sudo -u postgres psql
+alter user testrole with encrypted password 'password';
+grant all privileges on database testdb to testrole;

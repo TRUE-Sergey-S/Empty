@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings": {
+        "DefaultConfiguration":"Host=localhost;Port=5432;Database=testdb;Username=testrole;Password=password"
+    }
+}
